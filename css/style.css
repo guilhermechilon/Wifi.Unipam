@@ -163,13 +163,27 @@ div.eyes div.pupil
 @-moz-keyframes blink { 5% { opacity: 0; } }
 @-o-keyframes blink { 5% { opacity: 0; } }
 
-/*  estilos alterados */
-#topo{
-	font-family: arial;
-	font-size: 20px;
+.carousel-inner > .item > img {
+  width: 100%;
+  height:360px;
 }
 
-#carousel-example-generic{
-	width: 60%;
-	height: 300px;
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+   
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
 }
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+   
+}
+
