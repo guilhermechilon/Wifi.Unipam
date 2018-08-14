@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  	
+   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Wi-fi Unipam para acesso a internet.">
+    <meta name="keywords" content="Wi-fi, unipam, tecnologia, internet">
+    <meta name="author" content="">
+    <link type="image/ico" rel="icon" href="favicon.ico">
+	      
+    <title>Wi-Fi - UNIPAM - Centro Universitário de Patos de Minas</title>
+
+	<link href="fonts/fonts.css" rel="stylesheet">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+
+    <<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- boneco observatório -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script src="js/jquery.js"></script>
+
+    <script src="js/rybenaDOMFull-1.5.js"></script>
+    <script src="js/rybena-1.0.js"></script>
+
+    <script>
+        ryb_ready(function () {
+
+            ryb_includeBar({
+                'typeBar': 'sideBar', /*Options: default, sideBar*/
+                'positionBar': 'right', /*Options: right, left*/
+                'visCloseBar': 'visible', /*Options: hidden, visible*/
+                'visCloseBarMobile': 'hidden' /*Options: hidden, visible*/
+            });
+            ryb_initRybena( {
+                'dimension' : '3D', /*Options: '2D' , '3D' (Default)*/
+                'enableMobile' : 'true', /*Options: 'false' , 'true'(Default)*/
+                'positionPlayer' : 'right' /*Options: 'right' , 'left'*/
+            });
+        });
+    </script>
+  </head>
+ <body>
+ 	<header>
+ 		<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+ 			<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+ 				<span class="icon-bar"></span>
+ 				<span class="icon-bar"></span>
+ 				<span class="icon-bar"></span>
+ 			</button>
+ 				<div class="container">
+ 					<div class="navbar-header">
+ 						<h1 id="topo">
+ 							<a class="navbar-brand" href="http://unipam.edu.br/" target="_blank"><img src="img/logo.png" class="img-responsive" alt="Wifi"/><span>Wifi Unipam</span></a>
+ 						</h1>
+ 					</div>
+ 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ 						<ul class="nav navbar-nav menu-hidden">
+ 							<li><a href="index.html">Início</a></li>
+ 							<li><a href="condicoes.html">Condições de uso</a></li>
+ 							<li class="active"><a href="configuracoes.html">Configurações</a></li>
+ 							<li><a href="contato.html">Contato</a></li>
+ 						</ul>
+ 						<ul class="nav navbar-nav navbar-right menu-hidden">
+ 							<li><a href="https://www.facebook.com/unipam" target="_blank" title="Facebook"><img src="img/facebook.png"/></a></li>
+ 							<li><a href="https://twitter.com/unipamnet" target="_blank" title="Twitter"><img src="img/twitter.png"/></a></li>
+ 							<li><a href="http://instagram.com/unipamnet/" target="_blank" title="Instragram"><img src="img/instagram.png"/></a></li>
+ 							<li><a href="https://www.youtube.com/user/CanalUNIPAM" target="_blank" title="You Tube"><img src="img/youtube.png"/></a></li>
+ 						</ul>
+ 					</div>
+ 				</div>
+ 			</nav>
+ 			<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas " role="navigation">
+ 				<ul class="nav">
+ 					<li><a href="index.html">Início</a></li>
+ 					<li><a href="condicoes.html">Condições de uso</a></li>
+ 					<li class="active"><a href="configuracoes.html">Configurações</a></li>
+ 					<li><a href="contato.html">Contato</a></li>
+
+ 					<li><a href="https://www.facebook.com/unipam" target="_blank" title="Facebook"><img src="img/facebook.png"/></a></li>
+ 					<li><a href="https://twitter.com/unipamnet" target="_blank" title="Twitter"><img src="img/twitter.png"/></a></li>
+ 					<li><a href="http://instagram.com/unipamnet/" target="_blank" title="Instragram"><img src="img/instagram.png"/></a></li>
+ 					<li><a href="https://www.youtube.com/user/CanalUNIPAM" target="_blank" title="You Tube"><img src="img/youtube.png"/></a></li>
+ 				</ul>
+ 			</nav>
+ 		</header>
+
+ 		<div class="container">
+ 			<div class="curso">
+        <!--   
+            <h3 id="topo" class="text-center">CONFIGURAÇÕES</h3>
+        -->
+ 			
+ 				<div class="row">
+ 					<div class="col-md-12 col-lg-12 formt-curso">
+
+ 						<div class="alert alert-warning" role="alert">
+ 							<p>
+ 								<b>
+ 								<i class="fa fa-exclamation-circle" aria-hidden="true"></i> Leia as Condições de Uso.
+ 								</b>
+ 							</p>
+ 						</div>
+
+ 						<h4>Informações</h4>
+ 						<p><b>SSID (nome da rede):</b> UNIPAM</p>
+ 						<p><b>Criptografia:</b> WPA2-Enterprise (ou WPA2-Empresarial ou WPA2-Corporativo) com AES</p>
+ 						<p><b>Protocolo:</b> IEEE 802.11 g/n</p>
+ 						<p><b>Endereço IP:</b> atribuído via <b>DHCP</b> (automático e obrigatório).</p>
+ 						<p><b>Servidores de DNS:</b> atribuído via DHCP (automático e obrigatório).</p>
+ 						<p><b>Credenciais para acesso:</b> são o <b>mesmo usuário</b> e a <b>mesma senha</b> utilizados para acesso à Internet nas <b>Salas de Informática.</b></p>
+ 						<p><b>Autenticação:</b> EAP protegido (PEAP) / EAP-MSCHAPv2</p>
+ 						<br/>
+ 						<div class="alert alert-danger" role="alert">
+ 							<p><b><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> A configuração de seus dispositivos, incluindo medidas de proteção e segurança é de responsabilidade do usuário.</b></p>
+ 						</div>
+ 						<br/>
+
+ 						<h4>Manuais de configuração:</h4>
+ 						<ul class="formt-ul">
+ 							<li>
+ 								<a href="manual/manual_configuracao_wifi_unipam_windows_7_v2.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Windows 7;
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/Manual_configuracao_Wi-Fi_UNIPAM_Windows_8-1.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Windows 8.1;
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/Manual_configuracao_Wi-Fi_UNIPAM_Windows_10.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Windows 10;
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/manual_configuracao_wifi_unipam_android.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Android (4.0.3);
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/Manual_configuracao_Wi-Fi_UNIPAM_Android_7.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Android (7.0);
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/manual_configuracao_wifi_unipam_ubuntu.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									Ubuntu (14.04);
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/Manual_configuracao_Wi-Fi_UNIPAM_IOS.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									iOS;
+ 								</a>
+ 							</li>
+ 							<li>
+ 								<a href="manual/Manual_configuracao_Wi-Fi_UNIPAM_MAC_IOS.pdf" target="_blank">
+ 									<i class="fa fa-download" aria-hidden="true"></i> 
+ 									MAC OS.
+ 								</a>
+ 							</li>
+ 						</ul>
+
+ 						<h4>Vídeos:</h4>
+ 						<ul class="formt-ul">
+ 							<li>
+ 								<a href="manual/Video_wifi_android.mp4" target="_blank">
+ 									<i class="fa fa-play" aria-hidden="true"></i> Configuração Android (7.0)
+ 								</a>
+ 							</li>
+							<li>
+ 								<a href="manual/Tutotial_WIFI_Windows_10.mp4" target="_blank">
+ 									<i class="fa fa-play" aria-hidden="true"></i> Configuração Windows 10
+ 								</a>
+ 							</li>
+ 						</ul>
+
+            <h4>Como identificar seu Sistema Operacional:</h4><br><br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/mac-os.png">
+                </div>
+                <div class="item">
+                  <img src="img/mac-os-2.png">
+                </div>
+                <div class="item">
+                  <img src="img/win-7">
+                </div>
+                <div class="item">
+                  <img src="img/win-8">
+                </div>
+                <div class="item">
+                  <img src="img/win-8.1">
+                </div>
+                <div class="item">
+                  <img src="img/win-10">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Imagem anterior</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Próxima imagem</span>
+              </a>
+            </div>
+            <!--
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/mac-os.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/mac-os-2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/win-7" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                 <img class="d-block w-100" src="img/win-8" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                 <img class="d-block w-100" src="img/win-8.1" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                 <img class="d-block w-100" src="img/win-10" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          -->
+ 						<br/><br/><br/><br/>
+ 					</div>
+ 				</div>
+ 			</div>	
+ 		</div>
+
+ 		<script src="js/bootstrap.min.js"></script>
+ 		<script src="js/jasny-bootstrap.min.js"></script>
+
+ 		<script type="text/javascript">
+ 			$("#scroll").click(function(){
+ 				$("html, body").animate({ scrollTop: $("#home").height() + 80 }, 1000);
+ 				return false;
+ 			})
+ 		</script>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+ 	</body>
+ 	</html>
